@@ -1,11 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <title>STAR WARS - API</title>
+    <link rel="Chewbacca fav icon by Symbolicons" type="image/svg" href="images/chewie.png"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script defer src="js/main.js"></script>
+  </head>
+  <body>
+    <div class="grid-con">
+      <section class="col-span-full l-col-span-6" id="character-box">
+        <h2>CHARACTER LIST:</h2>
+        <div id="loading-box">
+        </div>
+      </section>
+      <section class="col-span-full l-col-span-6" id="movie-box">
+        <div id="loading-box-2">
+        </div>
+        <div id="pre-load-text">
+          <p>In a galaxy far, far away, you can select a character to access detailed information about a Star Wars movie</p>
+        </div>
+        <div class="movie-box-information">
+          <div>
+            <a><span id="close">&times;</span></a>
+          </div>
+        <h2>MOVIE</h2>
+        <section id="review-con">
+          <template id="review-template">
+            <div>
+              <h3 class="review-heading"></h3>
+              <div id="info-movies">
+                <p class="movie-title"></p>
+                <p class="movie-description"></p>
+                <img class="photo-movie" src="" alt="">
+              </div>
+            </div>
+          </template>
+        </section>
+      </div>
+      </section>
+
+    </div>  
+  </body>
 </html>
