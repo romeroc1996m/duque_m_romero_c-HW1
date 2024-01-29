@@ -1,0 +1,22 @@
+.spinner{
+    animation: rotation 6s infinite linear;
+    max-width: 100px;
+  }
+
+
+#loading-box-2{
+  text-align: center;
+}
+
+#loading-box{
+  text-align: center;
+}
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

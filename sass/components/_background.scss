@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+}
+
+
+#character-box{
+    background-image: url(../images/375background.jpg);
+    background-repeat:no-repeat;
+    background-size: cover; 
+    min-height: 937px;
+}
+
+#movie-box{
+    background-image: url(../images/375background1.jpg);
+    background-repeat:no-repeat;
+    background-size: cover; 
+    min-height: 937px;
+}
+
+
+@media (min-width: 768px) {
+
+
+    #character-box{
+        background-image: url(../images/768background.jpg);
+        min-height: 1137px;
+    }
+    
+    #movie-box{
+        background-image: url(../images/768background1.jpg);
+        min-height: 1137px;
+    }
+
+}
+
+
+
+@media (min-width: 1200px) {
+
+
+    body{
+    background-image: url(../images/1200backgroundfixed.jpg);
+    background-repeat:no-repeat;
+    background-size: cover; 
+    }
+
+    #character-box{
+        background-image: none;
+    }
+
+    #movie-box{
+        background-image: none;
+    }
+
+}
+
+
