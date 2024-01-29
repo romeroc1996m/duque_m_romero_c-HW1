@@ -1,0 +1,242 @@
+@use '../abstracts/variables' as h;
+
+
+//Characters
+
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+a {
+    cursor: pointer;
+}
+
+#character-box h2{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#character-box{
+    padding-top: 30px;
+    text-align: center;
+    font-family: h.$heading-font-family;
+}
+
+#character-box ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#character-box li {
+    background-color: #ffffff;
+    opacity: 0.7;
+    margin-top: 30px;
+    padding: 10px;
+    width: 230px;
+}
+
+#character-box li a {
+    color: rgb(0, 0, 0);
+}
+
+//Movies
+
+#movie-box{
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+#info-movies{
+    background-color: black;
+    opacity: 0.7;
+    margin: 25px;
+    padding: 40px;
+}
+
+.movie-box-information h2{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+.movie-title{
+    font-size: 22px;
+}
+
+.movie-description{
+    font-size: 17px;
+}
+
+#close{
+    font-size: 50px;
+    margin-right: 20px;
+    float: right;
+}
+
+
+
+.movie-box-information {
+    display: none;
+  }
+
+#pre-load-text{
+    font-size: 20px;
+    background-color: black;
+    opacity: 0.7;
+    margin: 20px;
+    padding: 10px;
+}
+
+#pre-load-text p{
+    margin-bottom: 0;
+}
+
+
+
+@media (min-width: 768px) {
+
+    //Character
+
+    
+    #character-box h2{
+        font-size: 55px;
+    }
+
+    
+    #character-box li {
+        margin-top: 30px;
+        padding: 10px;
+        width: 330px;
+    }
+
+    #character-box li a {
+        font-size: 25px;
+    }
+
+
+    //Movies
+
+    .movie-box-information h2{
+        font-size: 55px;
+    }
+
+    .movie-title{
+        font-size: 32px;
+    }
+    
+    
+    .movie-description{
+        font-size: 22px;
+    }
+
+    #close{
+        font-size: 70px;
+        margin-right: 20px;
+        float: right;
+    }
+
+    #pre-load-text p{
+        font-size: 42px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    //Character
+
+    
+    #character-box h2{
+        font-size: 55px;
+    }
+
+    
+    #character-box li {
+        margin-top: 30px;
+        padding: 10px;
+        width: 330px;
+    }
+
+    #character-box li a {
+        font-size: 25px;
+    }
+
+
+    //Movies
+
+    .movie-box-information h2{
+        font-size: 55px;
+    }
+
+    .movie-title{
+        font-size: 32px;
+    }
+    
+    
+    .movie-description{
+        font-size: 22px;
+    }
+
+    #close{
+        font-size: 70px;
+        margin-right: 20px;
+        float: right;
+    }
+
+    #pre-load-text p{
+        font-size: 42px;
+    }
+
+}
+
+
+@media (min-width: 1920px) {
+
+    //Character
+
+    
+    #character-box h2{
+        font-size: 62px;
+    }
+
+    
+    #character-box li {
+        margin-top: 30px;
+        padding: 10px;
+        width: 330px;
+    }
+
+    #character-box li a {
+        font-size: 30px;
+    }
+
+
+    //Movies
+
+    .movie-box-information h2{
+        font-size: 62px;
+    }
+
+    .movie-title{
+        font-size: 35px;
+    }
+    
+    
+    .movie-description{
+        font-size: 25px;
+    }
+
+    #close{
+        font-size: 70px;
+        margin-right: 20px;
+        float: right;
+    }
+
+    #pre-load-text p{
+        font-size: 42px;
+    }
+
+}
